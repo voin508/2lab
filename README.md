@@ -1,4 +1,8 @@
-
+[![CI/CD GitHub Actions](https://github.com/voin508/2lab/actions/workflows/python-app.yml/badge.svg)](https://github.com/voin508/2lab/actions/workflows/python-app.yml)
+[![Coverage Status](https://coveralls.io/repos/voin508/2lab/badge.svg?branch=main)](https://coveralls.io/github/voin508/2lab?branch=main)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=voin508_2lab&metric=alert_status)](https://sonarcloud.io/dashboard?id=voin508_2lab)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=voin508_2lab&metric=bugs)](https://sonarcloud.io/summary/new_code?id=voin508_2lab)
+[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=voin508_2lab&metric=code_smells)](https://sonarcloud.io/dashboard?id=voin508_2lab)
 # План тестирования
 
 ## Атестационное тестирование:  

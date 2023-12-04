@@ -22,11 +22,13 @@ class FlashcardDeck:
     def save_flashcard_deck(self, filename):
         with open(filename, 'wb') as file:
             pickle.dump(self.flashcards, file)
-
+            print(f"Файл: {filename} создан")
+            
     def load_flashcard_deck(self, filename):
         try:
             with open(filename, 'rb') as file:
                 self.flashcards = pickle.load(file)
+                print(f"Загрузка успешна")
         except FileNotFoundError:
             print(f"Ошибка: файл '{filename}' не найден.")
         except pickle.UnpicklingError:
